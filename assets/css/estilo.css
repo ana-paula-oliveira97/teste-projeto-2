@@ -14,3 +14,7 @@ body {
   background-color: #5a5858;
   color: white;
 }
+
+.titulo {
+  text-align: center;
+}

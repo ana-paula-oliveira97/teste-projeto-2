@@ -77,5 +77,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/estilo.scss';
+@import '../assets/css/estilo.min.css';
 </style>

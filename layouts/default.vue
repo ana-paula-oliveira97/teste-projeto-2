@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <div class="centro">
-      <h1>Teste de Projeto</h1>
+    <div>
+      <h1 class="titulo">sejam bem vindo ao Cinemac</h1>
     </div>
     <Nuxt />
     <card />
