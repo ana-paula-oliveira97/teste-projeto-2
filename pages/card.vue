@@ -49,3 +49,9 @@
     </b-card-group>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'card',
+}
+</script>
