@@ -12,7 +12,9 @@
           to additional content. This content is a little bit longer.
         </b-card-text>
         <template v-slot:footer>
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <div>
+            <b-button variant="success">Disponivel </b-button>
+          </div>
         </template>
       </b-card>
 
@@ -27,7 +29,9 @@
           content.
         </b-card-text>
         <template v-slot:footer>
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <div>
+            <b-button variant="danger"> indisponível</b-button>
+          </div>
         </template>
       </b-card>
 
@@ -42,8 +46,10 @@
           to additional content. This card has even longer content than the
           first to show that equal height action.
         </b-card-text>
-        <template v-slot:footer>
-          <small class="text-muted">Last updated 3 mins ago</small>
+        <template v-slot:footer
+          ><div>
+            <b-button variant="success">Disponivel </b-button>
+          </div>
         </template>
       </b-card>
     </b-card-group>

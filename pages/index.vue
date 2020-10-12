@@ -53,11 +53,7 @@
         </p>
       </b-carousel-slide>
     </b-carousel>
-
-    <p class="mt-4">
-      Slide #: {{ slide }}<br />
-      Sliding: {{ sliding }}
-    </p>
+    <p></p>
   </div>
 </template>
 
@@ -79,3 +75,7 @@ export default {
   },
 }
 </script>
+
+<style>
+@import '../assets/css/estilo.scss';
+</style>

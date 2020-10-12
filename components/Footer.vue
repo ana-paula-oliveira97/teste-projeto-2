@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="rodape">
       <p>©Todos os direitos reservados.</p>
     </div>
   </div>
