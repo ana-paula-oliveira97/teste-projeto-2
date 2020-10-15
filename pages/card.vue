@@ -3,7 +3,7 @@
     <b-card-group deck>
       <b-card
         title="Dead"
-        img-src="https://image.tmdb.org/t/p/w342/eu40V59ULl92GIWfRGLAuzu5EYb.jpg"
+        img-src="~/assets/img/Dead.jpg"
         img-alt="Image"
         img-top
       >
@@ -23,7 +23,7 @@
 
       <b-card
         title="Escolhida"
-        img-src="https://image.tmdb.org/t/p/w342/irkse1FMm9dWemwlxKJ7RINT9Iy.jpg"
+        img-src="~/assets/img/Escolhida.jpg"
         img-alt="Image"
         img-top
       >
@@ -43,7 +43,7 @@
 
       <b-card
         title="2067"
-        img-src="https://image.tmdb.org/t/p/w342/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg"
+        img-src="~/assets/img/2067.jpg"
         img-alt="Image"
         img-top
       >
@@ -60,7 +60,7 @@
 
       <b-card
         title="Morte Súbita 2"
-        img-src="https://image.tmdb.org/t/p/w342/elZ6JCzSEvFOq4gNjNeZsnRFsvj.jpg"
+        img-src="~/assets/img/Morte Súbita 2.jpg"
         img-alt="Image"
         img-top
       >
@@ -80,7 +80,7 @@
 
       <b-card
         title="A Gangue: Uma Noite de Sangue "
-        img-src="https://image.tmdb.org/t/p/w342/sxDoeVZBWVqaDpJ6NDh7SGPQvBK.jpg"
+        img-src="~/assets/img/A Gangue.jpg"
         img-alt="Image"
         img-top
       >

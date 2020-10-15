@@ -17,7 +17,7 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="https://picsum.photos/1024/480/?image=52"
+        img-src="~/assets/img/foto cine.jpg"
       ></b-carousel-slide>
 
       <!-- Slides with custom text -->
