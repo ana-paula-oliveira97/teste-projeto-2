@@ -102,6 +102,6 @@
 
 <script>
 export default {
-  name: 'card',
+  name: 'cartaz',
 }
 </script>
