@@ -1,18 +1,28 @@
 <template>
   <div>
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="info">
+      <b-navbar toggleable="lg" type="dark" variant="dark">
         <b-navbar-brand href="#">Cinemac</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
         <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav>
-            <b-nav-item href="#">Sobre</b-nav-item>
-            <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-navbar-nav class="fonte-menu">
+            <b-nav-item> <NuxtLink to="/">Início</NuxtLink> </b-nav-item>
+            <b-nav-item> <NuxtLink to="/about">Sobre</NuxtLink> </b-nav-item>
+            <b-nav-item>
+              <NuxtLink to="/Cards">Filmes em Cartaz </NuxtLink></b-nav-item
+            >
+            <b-nav-item href="#">Estreias</b-nav-item>
+            <b-nav-item href="#">Blog</b-nav-item>
+            <b-nav-item>
+              <NuxtLink to="/form">Reserve seu lugar</NuxtLink></b-nav-item
+            >
           </b-navbar-nav>
 
-          <!-- Right aligned nav items -->
+          <!--parte de pesquisa e cadastro do menu  -->
+
+          <!-- Right aligned nav items 
           <b-navbar-nav class="ml-auto">
             <b-nav-form>
               <b-form-input
@@ -26,14 +36,14 @@
             </b-nav-form>
 
             <b-nav-item-dropdown right>
-              <!-- Using 'button-content' slot -->
+               Using 'button-content' slot 
               <template v-slot:button-content>
                 <em>User</em>
               </template>
               <b-dropdown-item href="#">Profile</b-dropdown-item>
               <b-dropdown-item href="#">Sign Out</b-dropdown-item>
             </b-nav-item-dropdown>
-          </b-navbar-nav>
+          </b-navbar-nav>-->
         </b-collapse>
       </b-navbar>
     </div>

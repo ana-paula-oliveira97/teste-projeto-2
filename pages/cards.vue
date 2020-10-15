@@ -77,7 +77,7 @@
           </div>
         </template>
       </b-card>
-
+      <p></p>
       <b-card
         title="A Gangue: Uma Noite de Sangue "
         img-src="~/assets/img/A Gangue.jpg"

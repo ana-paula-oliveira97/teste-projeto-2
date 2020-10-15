@@ -1,11 +1,9 @@
 <template>
   <div>
     <Header />
-    <div>
-      <h1 class="titulo">sejam bem vindo ao Cinemac</h1>
-    </div>
+    <p></p>
     <Nuxt />
-    <card />
+    <p></p>
     <Footer />
   </div>
 </template>
@@ -13,13 +11,11 @@
 <script>
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import card from '../pages/card'
 
 export default {
   components: {
     Header,
     Footer,
-    card,
   },
   data() {
     return {
@@ -45,5 +41,5 @@ export default {
 </script>
 
 <style>
-@import '../assets/css/estilo.scss';
+@import '../assets/css/estilo.min.css';
 </style>
