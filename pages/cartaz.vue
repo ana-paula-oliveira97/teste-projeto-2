@@ -1,5 +1,8 @@
 <template>
   <div>
+    <p>
+      <NuxtLink class="navegacao" to="/">Início</NuxtLink>> Filmes em cartaz
+    </p>
     <b-card-group deck>
       <b-card
         title="Dead"

@@ -16,7 +16,7 @@
             <b-nav-item href="#">Estreias</b-nav-item>
             <b-nav-item href="#">Blog</b-nav-item>
             <b-nav-item>
-              <NuxtLink to="/form">Reserve seu lugar</NuxtLink></b-nav-item
+              <NuxtLink to="/">Reserve seu lugar</NuxtLink></b-nav-item
             >
           </b-navbar-nav>
 

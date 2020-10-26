@@ -40,3 +40,8 @@ html, body {
   text-align: center;
   background-color: #fafaf0;
 }
+
+.navegacao {
+  margin: 10px;
+  padding: 5px;
+}
